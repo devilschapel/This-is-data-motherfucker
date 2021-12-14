@@ -1,0 +1,55 @@
+===================================================================================Algorithms============================================================================
+
+
+1) Write a Program for Randomized Selection Algorithm
+
+In randomized selection algo you select a random number from the array and you make it the pivot value and divide the partition by half. In the left side , there will be
+values which are less than the pivot value and in the right side of the pilot , there will be value which are greater than the pivot value. Same thing will continue 
+in the left side to find the smaller number in the array
+
+2) Write a Program for Heap Sort Algorithm
+
+In heap sort, create the binary tree using the give elements. We create a max heap to sort the elements in ascending order. Once the heap is created we swap the root 
+node with the last node and delete the last node from the heap.
+
+3) Write a Program to perform Radix Sort Algorithm
+
+This algorithm is only used to sort numbers. We sort the numbers from least significiant digit to most significiant digit. we use counting sort as a subroutine to sort.
+here we first select the unit place from all the numbers and sort the numbers from ascend to descend. And then select the tens place and do the same and hundreds and so on
+
+4) Write a Program to Perform Bucket Sort Algorithm
+
+In bucket sort , the number of buckets will be the number of elements in the array provided. Insert arr[i] into bucket[N*arr[i]] where N is the number of elements.
+So if i is 0.7 then the element 0.7 is stored in bucket 7th place. Then we apply insertion sort to each buckets and then we insert all the elements in the bucket to the
+array which is final result.
+
+5) Write a Program to Perform Floyd-Warshall algorithm
+
+Floyd Warshall algorithm is used to find the shortest path between all vertices in the weighted graph. We have to create a matrix. 
+Shortest distance of a node to itself is 0. 
+d[i][j]=min(d[i][j],d[i][k]+d[k][j])
+If the distance from one node to other is negative , then the negative element will be chosen and shortest path cannot be found and it will be called negative edge 
+weight cycle.
+
+YT- https://www.youtube.com/watch?v=nV_wOZnhbog
+
+6) Write a Program for Counting Sort Algorithm in python
+
+Counting sort is a sorting technique based on keys between a specific range. It works by counting the number of objects having distinct key values (kind of hashing). 
+Then doing some arithmetic to calculate the position of each object in the output sequence.
+
+YT - https://www.youtube.com/watch?v=OKd534EWcdk
+
+7) Write a program for Set Covering Problem
+
+YT- https://www.youtube.com/watch?v=hrXe3b0C5QU
+
+8) Write a Program for found a subset with given sum
+
+Input: set[] = {3, 34, 4, 12, 5, 2}, sum = 9
+Output: True  
+There is a subset (4, 5) with sum 9.
+
+Input: set[] = {3, 34, 4, 12, 5, 2}, sum = 30
+Output: False
+There is no subset that add up to 30.
